@@ -1,0 +1,133 @@
+/*
+    Theme Name: Game Store Child
+    Theme URI:
+    Description_ Tema para la tienda online de videojuegos, modificando el tema por defecto.
+    Author:
+    Template: Storefront
+    version:1.0
+    License: GNU General Public License v2 or later
+    Tags: Woocommerce, spa, responsive, tienda online, online, tienda, venta
+*/
+
+.wp-block-button__link:not(.has-text-color) {
+    color: #000000;
+}
+
+.wp-block-button__link:not(.has-text-color):hover,
+.wp-block-button__link:not(.has-text-color):focus,
+.wp-block-button__link:not(.has-text-color):active {
+    color: #000000;
+}
+
+.wp-block-button__link:not(.has-background) {
+    background-color: #dd9933;
+}
+
+.wp-block-button__link:not(.has-background):hover,
+.wp-block-button__link:not(.has-background):focus,
+.wp-block-button__link:not(.has-background):active {
+    border-color: #c4801a;
+    background-color: #c4801a;
+}
+
+.wc-block-grid__products .wc-block-grid__product .wp-block-button__link {
+    background-color: #dd9933;
+    border-color: #dd9933;
+    color: #000000;
+}
+
+.wp-block-quote footer,
+.wp-block-quote cite,
+.wp-block-quote__citation {
+    color: #6d6d6d;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+    color: #6d6d6d;
+}
+
+.wp-block-image figcaption {
+    color: #6d6d6d;
+}
+
+.wp-block-separator.is-style-dots::before {
+    color: #333333;
+}
+
+.wp-block-file a.wp-block-file__button {
+    color: #000000;
+    background-color: #dd9933;
+    border-color: #dd9933;
+}
+
+.wp-block-file a.wp-block-file__button:hover,
+.wp-block-file a.wp-block-file__button:focus,
+.wp-block-file a.wp-block-file__button:active {
+    color: #000000;
+    background-color: #c4801a;
+}
+
+.wp-block-code,
+.wp-block-preformatted pre {
+    color: #6d6d6d;
+}
+
+.wp-block-table:not( .has-background ):not( .is-style-stripes ) tbody tr:nth-child(2n) td {
+    background-color: #db9731;
+}
+
+.wp-block-cover .wp-block-cover__inner-container h1:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h2:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h3:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h4:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h5:not(.has-text-color),
+.wp-block-cover .wp-block-cover__inner-container h6:not(.has-text-color) {
+    color: #000000;
+}
+
+.wc-block-components-price-slider__range-input-progress,
+.rtl .wc-block-components-price-slider__range-input-progress {
+    --range-color: #7f54b3;
+}
+
+/* Target only IE11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .wc-block-components-price-slider__range-input-progress {
+        background: #7f54b3;
+    }
+}
+
+.wc-block-components-button:not(.is-link) {
+    background-color: #dd9933;
+    color: #dd3333;
+}
+
+.wc-block-components-button:not(.is-link):hover,
+.wc-block-components-button:not(.is-link):focus,
+.wc-block-components-button:not(.is-link):active {
+    background-color: #c4801a;
+    color: #dd3333;
+}
+
+.wc-block-components-button:not(.is-link):disabled {
+    background-color: #dd9933;
+    color: #dd3333;
+}
+
+.wc-block-cart__submit-container {
+    background-color: #dd9933;
+}
+
+.wc-block-cart__submit-container::before {
+    color: rgba(186,118,16,0.5);
+}
+
+.wc-block-components-order-summary-item__quantity {
+    background-color: #dd9933;
+    border-color: #6d6d6d;
+    box-shadow: 0 0 0 2px #dd9933;
+    color: #6d6d6d;
+}
+
